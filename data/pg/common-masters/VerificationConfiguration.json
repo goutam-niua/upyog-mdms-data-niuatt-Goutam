@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "VerificationConfiguration": [
+    {
+      "type": "TAN",
+      "enabled": true
+    },
+    {
+      "type": "PAN",
+      "enabled": true
+    },
+    {
+      "type": "GST",
+      "enabled": true
+    }
+  ]
+}
