@@ -4,15 +4,18 @@
   "VerificationConfiguration": [
     {
       "type": "TAN",
-      "enabled": true
+      "enabled": true,
+      "description": "Enables TAN verification via Income Tax Department (ITD) / simulated mock gateway"
     },
     {
       "type": "PAN",
-      "enabled": true
+      "enabled": true,
+      "description": "Enables PAN verification via Income Tax Department (ITD) / simulated mock gateway"
     },
     {
       "type": "GST",
-      "enabled": true
+      "enabled": true,
+      "description": "Enables GST profile search via IRIS Peridot / simulated mock gateway"
     }
   ]
 }
